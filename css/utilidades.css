@@ -1,0 +1,39 @@
+body {
+  background: #01b399;
+}
+.dados label {
+  display: block;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  font-family: "Roboto";
+  font-size: 12px;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+.dados input {
+  padding: 5px 10px;
+  font-size: 12px;
+  margin-bottom: 5px;
+  border: rgba(0, 0, 0, 0.736);
+  background: #f4f4f4;
+}
+.dados input:focus {
+  outline: #01b399;
+}
+.botao {
+  margin-top: 50px;
+  padding: 10px 25px;
+  background: #01b399;
+  border: none;
+  font-family: "roboto";
+  font-weight: 400;
+  cursor: pointer;
+  border-radius: 3px;
+  display: flex;
+  margin-left: 100px;
+}
+.botao:hover {
+  background: #01b398a1;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.364);
+  color: #f4f4f4;
+}

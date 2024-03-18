@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sitema de cadastro</title>
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+  <h1>Sistema de cadastro</h1>
+  <section class="conteudo">
+    <div class="conteudo-perso">
+      <div class="imagem">
+        <img src="./img/imagem_cadastro.jpg" alt="cadastro">
+      </div>
+      <form action="">
+        <div class="informacoes">
+          <div class="dados">
+            <label for="nome">Nome Completo</label>
+            <input type="text" placeholder="José Afelinio Gomes" id="nome" required>
+          </div>
+          <div class="dados">
+            <label for="cpf">CPF</label>
+            <input type="text" placeholder="000.000.000-00" id="cpf" maxlength="14" required>
+          </div>
+          <div class="dados">
+            <label for="dataano">Data de nascimento</label>
+            <input type="date" id="dataano" required>
+          </div>
+
+          <div class="dados-cv">
+            <label for="arquivo">Anexe seu CV aqui</label>
+            <input id="img-input" type="file" placeholder="Sobrenome" id="arquivo" required>
+            <div id="img-container">
+              <img id="preview" src="">
+            </div>
+          </div>
+          <button class="botao">Enviar</button>
+        </div>
+    </div>
+    </form>
+    <script src="./script.js"></script>
+  </section>
+</body>
+
+</html>
